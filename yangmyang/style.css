@@ -1,0 +1,31 @@
+@import url(header.css);
+@import url(pages.css);
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+html,body{
+	width:100%;
+	height: 100%;
+}
+
+
+img{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+#clear{
+	width: 100%;
+	height: 30px;
+	
+}
+
+
+
+
+
