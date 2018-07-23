@@ -34,7 +34,19 @@ a:hover {
 		display: inline-block;
 		font-size: 150%;
 		padding: 5px;
-		color:black;
+		color:#aa66ff;
+
+}
+
+.logo a{
+	text-decoration: none;
+		color: :#aa66ff;
+}
+
+.logo:hover{
+
+	text-decoration: underline;
+
 
 }
 
@@ -146,6 +158,10 @@ ul li{
 }
 
 
+
+@media screen and (max-width: 768px){
+	
+}
 
 
 

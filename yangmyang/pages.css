@@ -4,16 +4,15 @@
 
 	height: 100%;
 	width: 100%;
-	
 	margin: 0 auto;
 	text-align: center;
-
+	background: #f5f5f5;
 }
 
 
 .inner-women-page{
 	width: 90%;
-	height: 80%;
+	height: 90%;
 	background: url(images/slide2.png)no-repeat center;
 	background-size: cover;
 	margin: 0 auto;
@@ -28,20 +27,40 @@
 	color:#f5f5f5;
 }
 
+.sug-cat h1{
+	padding: 10px;
+}
+
+.sug-cat{
+
+	width: 90%;
+	background: #f5f5f5;
+	margin: 20px 5%;
+	height: 300px;
+	border-radius: 5px;
+}
+
+aside h1{
+	font-size: 120%;
+}
+
 .women-btn{
-	color: black;
+	color: #f5f5f5;
 	margin: 10px auto;
 	width: 200px;
 	padding: 10px;
 	border: 1px solid white;
-	background:#f5f5f5;
+	background:#181818;
 	opacity: .9;
 	transition: all .5s;
+	font-size: 130%;
+	font-weight: 700;
 }
 
 .women-btn:hover {
-	background:#181818;
-	color: white;
+	background:#f5f5f5;
+	color: #181818;
+	cursor: pointer;
 }
 
 aside{
@@ -51,12 +70,16 @@ aside{
 
 }
 .desc{
-	width: 31.33%;
+	width:23%;
 	float: left;
 	margin: 1%;
 	text-align: center;
 
 
+}
+
+.desc:hover{
+	opacity: .8;
 }
 
 .desc h1{
@@ -65,25 +88,393 @@ aside{
 	font-size: 100%;
 }
 
-
-
-/*----------Women page (JEANS)-----------*/
-
-
-.women-jeans{
-	width: 100%;
-	height: 100%;
-	background: royalblue;
-	display: none;
+.desc a{
+text-decoration: none;
+color: #181818;
 }
 
 
 
 
+.man-page{
+
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background: #f5f5f5;
+}
+
+.inner-man-page{
+	width: 90%;
+	height: 90%;
+	background: url(images/mens/man-shopbg.jpg)no-repeat center;
+	background-size: cover;
+	margin: 0 auto;
+	color: white;
+	
+}
+
+.inner-man-page h1{
+	padding-top: 300px;
+	text-shadow: 0px 0px 25px black;
+	font-size: 200%;
+	color:#f5f5f5;
+}
+
+.man-btn{
+	color: #f5f5f5;
+	margin: 10px auto;
+	width: 200px;
+	padding: 10px;
+	border: 1px solid white;
+	background:#181818;
+	opacity: .9;
+	transition: all .5s;
+	font-size: 130%;
+	font-weight: 700;
+}
+
+.man-btn:hover {
+	background:#f5f5f5;
+	color: #181818;
+	cursor: pointer;
+}
+
+
+.kids-page{
+
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background: #f5f5f5;
+}
+
+.inner-kids-page{
+	width: 90%;
+	height: 90%;
+	background: url(images/kids/kids-bg.jpg)no-repeat center;
+	background-size: cover;
+	margin: 0 auto;
+	color: white;
+	
+}
+
+.inner-kids-page h1{
+	padding-top: 300px;
+	text-shadow: 0px 0px 25px black;
+	font-size: 200%;
+	color:#f5f5f5;
+}
+
+.kids-btn{
+	color: #181818;
+	margin: 10px auto;
+	width: 200px;
+	padding: 10px;
+	border: 1px solid white;
+	background:#f5f5f5;
+	opacity: .9;
+	transition: all .5s;
+	font-size: 130%;
+	font-weight: 700;
+}
+
+.kids-btn:hover {
+	background:#181818;
+	color: #f5f5f5;
+	cursor: pointer;
+}
+
+/*----------Women page (summer-collection)-----------*/
+
+.summer-collection{
+	width: 100%;
+
+	background:#d3a9e5;
+	position: absolute;
+
+}
+
+.summer-collection h1{
+	width: 100%;
+	text-align: center;
+	font-size: 150px;
+	position: fixed;
+	padding-top: 200px;
+	z-index: 1;	
+	color: #181818;
+}
+
+.inner-summer{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	background: #f5f5f5;
+	opacity: .2;
+}
 
 
 
+.products{
+	width: 100%;
+	float: right;
+}
 
+
+
+.one-three{
+	float: left;
+	
+	background: black;
+	z-index: 1;
+	margin: 15px 0px;
+
+}
+
+.description{
+	width: 31.33%;
+	padding: 1%;
+	color: black;
+	float: left;
+	height: 400px;
+	background: #f5f5f5;
+	text-align: center;
+
+}
+
+.description h3{
+	padding-top: 5px;
+}
+
+.one-three:hover{
+	opacity: .8;
+	cursor: pointer;
+}
+
+
+.discount{
+	height: 380px;
+	width: 100%;
+	background: url(images/slide1.png)no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.dis{
+	width: 100%;
+	padding-top: 80px;
+	height: 100%;
+
+}
+
+
+.discount-ban{
+	margin: 0 auto;
+	background: white;
+	width: 300px;
+
+}
+
+
+/*----------Men page (summer-collection)-----------*/
+
+
+
+.men-collection{
+	width: 100%;
+	background:#4f5082;
+	position: absolute;
+
+}
+
+.men-collection h1{
+	color: #f5f5f5;
+
+	width: 100%;
+	text-align: center;
+	font-size: 150px;
+	position: fixed;
+	padding-top: 200px;
+	z-index: 1;	
+}
+
+.inner-men{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	background: #f5f5f5;
+	opacity: .2;
+}
+
+
+
+.men-products{
+	width: 100%;
+	float: right;
+}
+
+
+.one-three{
+	float: left;
+	
+	background: black;
+	z-index: 1;
+	margin: 15px 0px;
+
+}
+
+.description{
+	width: 31.33%;
+	padding: 1%;
+	color: black;
+	float: left;
+	height: 400px;
+	background: #f5f5f5;
+	text-align: center;
+
+}
+
+.description h3{
+	padding-top: 5px;
+}
+
+.one-three:hover{
+	opacity: .8;
+	cursor: pointer;
+}
+
+
+
+/*----------Men page (summer-collection)-----------*/
+
+
+.kids-collection{
+	width: 100%;
+	background:#b1d8ce;
+	position: absolute;
+
+}
+
+.kids-collection h1{
+	color: #181818;
+	width: 100%;
+	text-align: center;
+	font-size: 150px;
+	position: fixed;
+	padding-top: 200px;
+	z-index: 1;	
+}
+
+.inner-kids{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	background: #f5f5f5;
+	opacity: .2;
+}
+
+
+
+.kids-products{
+	width: 100%;
+	float: right;
+}
+
+
+.one-three{
+	float: left;
+	
+	background: black;
+	z-index: 1;
+	margin: 15px 0px;
+
+}
+
+.description{
+	width: 31.33%;
+	padding: 1%;
+	color: black;
+	float: left;
+	height: 400px;
+	background: #f5f5f5;
+	text-align: center;
+
+}
+
+.description h3{
+	padding-top: 5px;
+}
+
+.one-three:hover{
+	opacity: .8;
+	cursor: pointer;
+}
+
+
+footer{
+	padding: 20px 0px;
+	width: 100%;
+	background: #f5f5f5;
+	height:120px;
+
+}
+
+.footer-3{
+	text-align: center;
+	width: 20%;
+	float: left;
+	line-height: 20px;
+
+}
+
+.footer-3 h3,h4{
+	line-height: 30px;
+	font-size: 90%;
+}
+
+.social{
+	width: 40%;
+	height: 120px;
+	float: left;
+	text-align: center;
+
+}
+
+.social h1{
+	font-size: 120%;
+	padding: 10px;
+}
+
+.social a{
+	color: #181818;
+	padding: 10px;
+	font-size: 40px;
+}
+
+.tw:hover{
+	color: #55acee;
+	
+}
+
+.ig:hover{
+	color: #e4405f;
+
+}
+
+
+.yt:hover{
+	color:#cd201f;
+}
+
+.fb:hover{
+	color: #3b5999;
+}
+
+
+.footer-3{
 
 
 

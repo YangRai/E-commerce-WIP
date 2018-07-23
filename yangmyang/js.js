@@ -22,11 +22,26 @@ $(document).ready(function(){
 	});
 
 
+
+
+
+
 });
 
 
+$(document).ready(function(){
+	$('.category h1').click(function(){
+		$('.category-b').css('display','block')
+	});
+
+
+
+});
 /*-------------- Women page navigation --------------*/
 
+
+
+/*
 $(document).ready(function(){
 	$('#women-j').click(function(){
 	  $('.women-page').css('display','none');
@@ -37,3 +52,5 @@ $(document).ready(function(){
 
 
 });
+
+*/
